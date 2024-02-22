@@ -1,0 +1,35 @@
+.image_wrapper{
+    position: relative;
+}
+
+p {
+    color: azure;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 95%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+}
+
+.overlay_0{
+    left: 0;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin: 40px;
+    background: #5a83ffe9;
+}
+
+.logo {
+    width: 8%;
+    transform: translate(1050%, -130%);
+    opacity: 70%;
+}
+
