@@ -4,6 +4,7 @@ body{
 
 
 #flex-parent{
+    display: flex;
     background-color: orangered;
 }
 #flex-parent p{
@@ -11,10 +12,10 @@ body{
 }
 
 #flex-child1{
-    order: 4;
+    order: 3;
 }
 #flex-child2{
- order: 3;
+ order: 4;
 }
 #flex-child3{
  order: 2;
@@ -25,9 +26,9 @@ body{
 
 
 #grid-parent{
-display: grid;
-grid-template-columns: 1fr 2fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 #grid-parent h1{
