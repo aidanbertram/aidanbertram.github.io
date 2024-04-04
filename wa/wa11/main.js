@@ -9,11 +9,11 @@ const filenames = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg'];
 
 /* Declaring the alternative text for each image file */
 const alts = {
-    'pic1.jpg' : 'close up of eye',
-    'pic2.jpg' : 'wave rock',
-    'pic3.jpg' : 'purple flowers',
-    'pic4.jpg' : 'egyptian tomb',
-    'pic5.jpg' : 'moth on leaf'
+    'pic1.jpg' : 'art',
+    'pic2.jpg' : 'glitch',
+    'pic3.jpg' : 'guy',
+    'pic4.jpg' : 'hockey',
+    'pic5.jpg' : 'tree'
 
 }
 
