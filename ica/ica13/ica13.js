@@ -85,8 +85,8 @@ while (balls.length < 100){
     const ball = new Ball (
         random(0 + size, width - size),
         random(0 + size, width - size),
-        random(-3, 3),
-        random(-3, 3),
+        random(-5, 5),
+        random(-5, 5),
         randomRGB(),
         size,
     );
