@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Normal Volume Changer</title>
+<style>
+  canvas {
+    background-color: #000000;
+    display: block;
+    margin: 20px auto;
+  }
+  body {
+    font-family:"Courier New", Courier, monospace;
+    font-weight:550;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .game-button {
+    font-family:"Courier New", Courier, monospace;
+    font-weight:550;
+    font-size: 18px;
+    background-color: white;
+  }
+</style>
+</head>
+<body>
+  <h1>Simple Volume Changer</h1>
+  <p id="score">Volume: 0%</p>
+  <button class="game-button" onclick="startGame()">Set Volume</button>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
